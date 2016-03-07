@@ -16,7 +16,6 @@ header{
     margin:0 auto;
     height: 20rem;
     width:100%;
-    display:block;
     background-color:yellowgreen;
 }
 
@@ -36,6 +35,21 @@ header{
     width:calc(100/3);
     padding:2.5%;
     font-size: 2rem
+}
+#one{
+    display:inline-block;
+    background-color: yellow;
+}
+h1{
+    margin:0 auto;
+    height: 15rem;
+    color:white;
+    background-color:red;
+    font-size: 3rem;
+    display:block;
+    line-height: 4.5em;
+    
+    
 }
 
 
