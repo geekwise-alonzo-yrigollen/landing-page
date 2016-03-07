@@ -38,13 +38,22 @@ h1{
     width:calc(80%/3)
         
 }
-
+/*FIVE DOLLAR BOX BEGINS*/
 
 #first{
     height: 22rem;
     background-color:ghostwhite;
     font-size: 2rem;
     text-decoration: none;
+}
+.dollar{
+    display:block;
+    height: 14rem;
+    font-size: 5rem;
+    line-height: 6rem;
+    padding:.5em;
+    background-color:red;
+
 }
 
 #second{
@@ -58,14 +67,19 @@ h1{
     font-size: 2rem;
 }
 
-
+ul{
+    list-style-type: none;
+    
+}
+li{
+    border-bottom: solid .05em;
+    
+}
 a{
     display:block;
     text-decoration: none;
 }
-li{
-    text-decoration: none;
-}
+
 
 
 
