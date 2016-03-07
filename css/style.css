@@ -19,28 +19,73 @@ header{
     background-color:yellowgreen;
 }
 
-/*DEBUG HEADER TEXT LATER???*/
-/*
-.head > #simple{
-    color:yellow;
-    font-size: 3rem;
-    float:left;
-      
+/*HEADING TEXT BELOW*/
+
+h1{
+    margin:0 auto;
+    width:30%;
+    font-size: 4rem;
+    color:blue;
+    background-color:aliceblue;
+    transform: translateY(4rem);
+    
+    
 }
-*/
 
 .section{
     margin:0 auto;
     display:inline-block;
+    width:calc(80%/3)
+        
+}
+
+
+#first{
+    height: 22rem;
+    background-color:ghostwhite;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#second{
+    height: 22rem;
+    background-color:ghostwhite;
+    font-size: 2rem;
+}
+#third{
+    height: 22rem;
+    background-color:ghostwhite;
+    font-size: 2rem;
+}
+
+
+a{
+    display:block;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*
+    margin:0 auto;
+    display:block;
     width:calc(100/3);
     padding:2.5%;
     font-size: 2rem
-}
-#one{
-    display:inline-block;
-    background-color: yellow;
-}
+*/
+
+
+/*
 h1{
+    width:calc(100%/3);
     margin:0 auto;
     height: 15rem;
     color:white;
@@ -51,6 +96,7 @@ h1{
     
     
 }
+*/
 
 
 
